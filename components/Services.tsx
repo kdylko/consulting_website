@@ -1,49 +1,35 @@
 export default function Services() {
   const services = [
-    {
-      title: "У вас есть идея, но нет команды",
-      description:
-        "Поможем быстро собрать прототип (POC) и подтвердить ценность решения.",
-    },
-    {
-      title: "Данные есть, но они не приносят пользы",
-      description:
-        "Выстроим инфраструктуру, которая превратит разрозненные логи в понятные отчеты и рычаги управления.",
-    },
-    {
-      title: "Нужно масштабировать продажи или поддержку",
-      description:
-        "Внедрим AI-инструменты, которые снизят нагрузку на сотрудников и увеличат скорость реакции.",
-    },
-    {
-      title: "Требуется глубокая экспертиза",
-      description:
-        "Если ваша текущая команда перегружена или сталкивается с нетипичными задачами в области ML/Data Engineering.",
-    },
+    "Predictive analytics",
+    "Classification",
+    "Fraud detection",
+    "Recommendation systems",
+    "Natural language processing (NLP)",
+    "Other",
   ];
 
   return (
     <section id="services" className="py-12 md:py-20 lg:py-28 bg-white">
       <div className="container-max section-padding">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-8 md:mb-12 text-center">
-            When Can We Help You?
+          <p className="text-lg sm:text-xl text-gray-700 mb-8 md:mb-10 text-center leading-relaxed">
+            We specialize in delivering custom-made AI POC solutions and Machine
+            Learning solutions for businesses.
+          </p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6 md:mb-8 text-center">
+            Our services
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {services.map((service, index) => (
-              <div
+              <li
                 key={index}
-                className="bg-gray-50 rounded-lg p-6 md:p-8 hover:shadow-lg transition-shadow border border-gray-100"
+                className="bg-gray-50 rounded-lg px-6 py-4 md:py-5 hover:shadow-md transition-shadow border border-gray-100 flex items-center"
               >
-                <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">
-                  {service.title}
-                </h3>
-                <p className="text-gray-700 leading-relaxed">
-                  {service.description}
-                </p>
-              </div>
+                <span className="text-primary-600 mr-3 font-semibold">•</span>
+                <span className="text-gray-800 font-medium">{service}</span>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     </section>
