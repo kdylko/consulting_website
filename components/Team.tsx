@@ -3,7 +3,7 @@ export default function Team() {
     {
       name: "Konstantin Dylko",
       description:
-        "Brings a unique blend of technical depth and strategic marketing expertise. Specializes in the intersection of data engineering, performance marketing, and business analytics. Technical stack includes SQL, Python, GCP, and AI-agent integration; strategic focus covers unit economics, investment valuation, and cohort analysis. Hands-on experience building GDPR-compliant analytics systems and optimizing digital campaigns across major ad platforms.",
+        "Over a decade of experience across data, analytics, and growth in digital and technology-driven businesses. Konstantin has held senior and executive roles at the intersection of data and digital marketing in fintech, telecom, automotive, and foodtech companies. He specializes in building data-driven growth systems, aligning analytics, unit economics, and performance marketing to drive scalable, measurable business impact.",
     },
     {
       name: "Eugene Gapon",
@@ -12,7 +12,7 @@ export default function Team() {
     },
     {
       name: "Andrey Seleznev",
-      description: "Some description",
+      description: "Extensive experience in strategy, business development, and scaling startup projects within the global automotive industry. Andrey has held executive roles focused on navigating complex international markets, driving product development, and fostering innovation. He specializes in aligning business planning, high-stakes negotiation, and general management to deliver measurable growth and operational excellence.",
     },
   ];
 
