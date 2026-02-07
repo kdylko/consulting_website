@@ -3,7 +3,7 @@ export default function Team() {
     {
       name: "Konstantin Dylko",
       description:
-        "Digital Marketing Director at NAKED mobile (German telecom operator) with a unique blend of technical depth and strategic marketing expertise. Konstantin specializes in the intersection of data engineering, performance marketing, and business analytics. His technical stack includes SQL, Python, GCP, and AI-agent integration, while his strategic focus covers unit economics, investment valuation, and cohort analysis. He has hands-on experience building GDPR-compliant analytics systems and optimizing digital campaigns across Google, Meta, and programmatic platforms.",
+        "Brings a unique blend of technical depth and strategic marketing expertise. Specializes in the intersection of data engineering, performance marketing, and business analytics. Technical stack includes SQL, Python, GCP, and AI-agent integration; strategic focus covers unit economics, investment valuation, and cohort analysis. Hands-on experience building GDPR-compliant analytics systems and optimizing digital campaigns across major ad platforms.",
     },
     {
       name: "Eugene Gapon",
